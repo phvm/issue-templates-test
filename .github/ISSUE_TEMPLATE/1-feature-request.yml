@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest a new feature for the project
+title: "[Feature]: "
+labels: ["feature request", "enhancement"]
+body: 
+- type: input
+  attributes: 
+    label: Title
+    description: A concise and simples title for the requested feature
+    placeholder: "Example: Dark mode"
+  validations: 
+    required: true
+- type: textarea
+  attributes:
+    label: Description
+    description: Complete description with all the details needed for the feature to come to life!
+    placeholder: "Example: All white backgrounds should turn dark and dark texts turn white. There should be a button to change between both themes, dark and light."
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Use Case
+    description: Describe how the requested feature would enhance the users experience
+    placeholder: "Example: A dark mode would enhance user experience by reducing eye strain"
+  validations:
+    required: false
+- type: dropdown
+  attributes:
+    label: Priority level
+    description: The level of priority the feature development should have
+    multiple: false
+    options:
+      - low
+      - medium
+      - high
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Attachments or Prototypes
+    description: Any attachment that can help us better understand the request feature, like an image, a figma prototype, etc...
+  validations:
+    required: false
