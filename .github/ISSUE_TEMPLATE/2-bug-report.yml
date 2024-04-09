@@ -3,13 +3,6 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
-  - type: input
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: What happened?
@@ -31,7 +24,7 @@ body:
   - type: checkboxes
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      description: By submitting this issue, you agree to follow our [Code of Conduct](code_of_conduction.md). 
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
@@ -46,3 +39,10 @@ body:
         - High
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
