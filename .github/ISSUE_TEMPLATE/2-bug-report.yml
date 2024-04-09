@@ -43,7 +43,7 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-    - type: checkboxes
+  - type: checkboxes
     attributes:
       label: Code of Conduct
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/vtexdocs/helpcenter/blob/main/CODE_OF_CONDUCT.md). 
