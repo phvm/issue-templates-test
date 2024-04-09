@@ -30,9 +30,9 @@ body:
     description: The level of priority the feature development should have
     multiple: false
     options:
-      - low
-      - medium
-      - high
+      - Low
+      - Medium
+      - High
   validations:
     required: true
 - type: textarea
