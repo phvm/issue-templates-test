@@ -6,11 +6,33 @@ body:
   - type: textarea
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      description: A clear and concise description of what the bug is.
+      placeholder: "Example: I clicked in a button and nothing happened!"
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: How to reproduce the bug?
+      description: "Steps to reproduce the behavior"
+      placeholder: "1. Go to '...'
+                    2. Click on '....'
+                    3. Scroll down to '....'
+                    4. See error"
+  - type: textarea
+    attributes:
+      label: What behavior did you expected?
+      description: A clear and concise description of what you expected to happen.
+      placeholder: "Example: I expected to be redirected to another page."
+  - type: markdown
+    attribute:
+      value: "## Desktop"
+  - type: input
+    attributes:
+      label: Operating system
+      description: What operating system are you seeing the problem on?
+      placeholder: Windows, Linux, etc...
+    validations:
+      required: false
   - type: input
     attributes:
       label: Browsers
@@ -20,11 +42,48 @@ body:
       required: false
   - type: input
     attributes:
-      label: Operating system
-      description: What operating system are you seeing the problem on?
-      placeholder: Windows, Linux, etc...
+      label: Version
+      description: What is your browser version?
+      placeholder: 22
     validations:
       required: false
+  - type: markdown
+    attribute:
+      value: "## Smartphone"
+  - type: input
+    attributes:
+      label: Device
+      description: What device are you seeing the problem on?
+      placeholder: "iPhone 6"
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Operating system
+      description: What operating system are you seeing the problem on?
+      placeholder: iOS8.1, Android14
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Browsers
+      description: What browsers are you seeing the problem on?
+      placeholder: Safari, chrome, ...
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Version
+      description: What is your browser version?
+      placeholder: 22
+    validations:
+      required: false
+- type: textarea
+  attributes:
+    label: Additional context
+    description: Add any other context about the problem here that can help us better understand the bug.
+  validations:
+    required: false
   - type: dropdown
     attributes:
       label: Priority level
