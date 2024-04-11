@@ -14,10 +14,7 @@ body:
     attributes:
       label: How to reproduce the bug?
       description: "Steps to reproduce the behavior"
-      placeholder: "1. Go to '...'
-                    2. Click on '....'
-                    3. Scroll down to '....'
-                    4. See error"
+      placeholder: "1. Go to '...' 2. Click on '....' 3. Scroll down to '....' 4. See error"
   - type: textarea
     attributes:
       label: What behavior did you expected?
