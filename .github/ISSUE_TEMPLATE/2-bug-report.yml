@@ -26,6 +26,9 @@ body:
 - type: markdown
   attributes:
     value: "## Desktop"
+- type: markdown
+  attributes:
+    value: "Fill these field only if you're seen this problem on a desktop"
 - type: input
   id: desktopos
   attributes:
@@ -54,6 +57,9 @@ body:
 - type: markdown
   attributes:
     value: "## Smartphone"
+- type: markdown
+  attributes:
+    value: "Fill these field only if you're seen this problem on a smartphone"
 - type: input
   attributes:
     label: Device
