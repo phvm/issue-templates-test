@@ -48,7 +48,7 @@ body:
   attributes:
     label: Version
     description: What is your browser version?
-    placeholder: 22
+    placeholder: "22"
   validations:
     required: false
 - type: markdown
@@ -82,7 +82,7 @@ body:
   attributes:
     label: Version
     description: What is your browser version?
-    placeholder: 22
+    placeholder: "22"
   validations:
     required: false
 - type: textarea
