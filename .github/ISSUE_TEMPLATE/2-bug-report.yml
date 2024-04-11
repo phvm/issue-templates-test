@@ -27,24 +27,25 @@ body:
   attribute:
     value: "## Desktop"
 - type: input
+  id: desktopos
   attributes:
-    id: desktopos
+
     label: Operating system
     description: What operating system are you seeing the problem on?
     placeholder: Windows, Linux, etc...
   validations:
     required: false
 - type: input
+  id: desktopbrowsers
   attributes:
-    id: desktopbrowsers
     label: Browsers
     description: What browsers are you seeing the problem on?
     placeholder: Firefox, Chrome, etc...
   validations:
     required: false
 - type: input
+  id: desktopbrowserversion
   attributes:
-    id: desktopbrowserversion
     label: Version
     description: What is your browser version?
     placeholder: 22
@@ -61,24 +62,24 @@ body:
   validations:
     required: false
 - type: input
+  id: mobileos
   attributes:
-    id: mobileos
     label: Operating system
     description: What operating system are you seeing the problem on?
     placeholder: iOS8.1, Android14
   validations:
     required: false
 - type: input
+  id: mobilebrowsers
   attributes:
-    id: mobilebrowsers
     label: Browsers
     description: What browsers are you seeing the problem on?
     placeholder: Safari, chrome, ...
   validations:
     required: false
 - type: input
+  id: mobilebrowsersversion
   attributes:
-    id: mobilebrowsersversion
     label: Version
     description: What is your browser version?
     placeholder: 22
