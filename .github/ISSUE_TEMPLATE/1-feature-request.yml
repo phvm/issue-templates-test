@@ -19,7 +19,7 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Use Case
+    label: Is your feature request related to a problem
     description: A clear and concise description of what problem this feature would solve.
     placeholder: "Example: A dark mode would enhance user experience by reducing eye strain"
   validations:
@@ -39,6 +39,12 @@ body:
   attributes:
     label: Attachments or Prototypes
     description: Any attachment that can help us better understand the request feature, like an image, a figma prototype, etc...
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Alternatives
+    description: A clear and concise description of any alternative solutions or features you've considered.
   validations:
     required: false
 - type: input
