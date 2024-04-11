@@ -24,7 +24,7 @@ body:
     description: A clear and concise description of what you expected to happen.
     placeholder: "Example: I expected to be redirected to another page."
 - type: markdown
-  attribute:
+  attributes:
     value: "## Desktop"
 - type: input
   id: desktopos
@@ -52,7 +52,7 @@ body:
   validations:
     required: false
 - type: markdown
-  attribute:
+  attributes:
     value: "## Smartphone"
 - type: input
   attributes:
