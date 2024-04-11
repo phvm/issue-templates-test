@@ -90,7 +90,7 @@ body:
     label: Additional context
     description: Add any other context about the problem here that can help us better understand the bug.
   validations:
-  required: false
+    required: false
 - type: dropdown
   attributes:
     label: Priority level
