@@ -28,6 +28,7 @@ body:
     value: "## Desktop"
 - type: input
   attributes:
+    id: desktopos
     label: Operating system
     description: What operating system are you seeing the problem on?
     placeholder: Windows, Linux, etc...
@@ -35,6 +36,7 @@ body:
     required: false
 - type: input
   attributes:
+    id: desktopbrowsers
     label: Browsers
     description: What browsers are you seeing the problem on?
     placeholder: Firefox, Chrome, etc...
@@ -42,6 +44,7 @@ body:
     required: false
 - type: input
   attributes:
+    id: desktopbrowserversion
     label: Version
     description: What is your browser version?
     placeholder: 22
@@ -59,6 +62,7 @@ body:
     required: false
 - type: input
   attributes:
+    id: mobileos
     label: Operating system
     description: What operating system are you seeing the problem on?
     placeholder: iOS8.1, Android14
@@ -66,6 +70,7 @@ body:
     required: false
 - type: input
   attributes:
+    id: mobilebrowsers
     label: Browsers
     description: What browsers are you seeing the problem on?
     placeholder: Safari, chrome, ...
@@ -73,6 +78,7 @@ body:
     required: false
 - type: input
   attributes:
+    id: mobilebrowsersversion
     label: Version
     description: What is your browser version?
     placeholder: 22
