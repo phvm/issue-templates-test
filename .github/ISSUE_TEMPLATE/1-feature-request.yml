@@ -1,7 +1,7 @@
 name: Feature request
 description: Suggest a new feature for the project
 title: "[Feature]: "
-labels: ["feature request", "enhancement"]
+labels: ["feature", "enhancement"]
 body: 
 - type: input
   attributes: 
